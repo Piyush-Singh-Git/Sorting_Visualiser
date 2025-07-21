@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting-Visualiser</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="side">
+    <h1>Algorithm Visualiser</h1>
+    <div id="scroll">
+      <div class="algo" id="0" style="background-color: #341c02;">Bubble Sort</div>
+      <div class="algo" id="1">Insertion Sort</div>
+      <div class="algo" id="2">Merge Sort</div>
+      
+    </div>
+  </div>
+  <div id="container">
+    <div id="head">
+      <button class="btn" id="sort">Sort !</button>
+      <button id="new">New Array</button>
+      <div id="sized">
+        <label for="size">Size:<p id="l_si"></p></label>
+        <input type="range" min="10" max="30" value="20" id="size">
+      </div>
+      <div id="speedd">
+        <label for="speed">Delay:<p id="l_sp"></p></label>
+        <input type="range" min="100" max="1000" value="100" step="100" id="speed">
+      </div>
+    </div>
+    <div id="algo_con">Bubble Sort</div>
+    <div id="array">
+      
+    </div>
+    
+  <script src="index.js"></script>
+</body>
+
+</html>
